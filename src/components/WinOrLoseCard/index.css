@@ -1,0 +1,88 @@
+/* Write your code here. */
+.win-lose-bg-container {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.win-lose-score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-lose-gamestatus {
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 500;
+}
+.win-lose-scorelabel {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+}
+.win-lose-score {
+  font-size: 45px;
+  color: #6a59ff;
+  font-weight: bold;
+}
+.win-lose-img {
+  width: 350px;
+  height: 450px;
+}
+.win-lose-img-container {
+  display: flex;
+  justify-content: center;
+}
+.playagain-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .win-lose-img {
+    height: 350px;
+    width: 300px;
+  }
+  .win-lose-gamestatus {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .win-lose-score-container {
+    order: 1;
+  }
+  .win-lose-bg-container {
+    flex-direction: column;
+  }
+  .win-lose-img {
+    width: 150px;
+    height: 200px;
+  }
+  .win-lose-score {
+    font-size: 25px;
+  }
+  .win-lose-gamestatus {
+    font-size: 25px;
+  }
+  .win-lose-scorelabel {
+    font-size: 20px;
+  }
+}
