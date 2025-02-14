@@ -10,3 +10,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: You can still make the content scrollable */
+.scrollable {
+  overflow: scroll; /* or 'auto' */
+}
